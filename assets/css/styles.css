@@ -1,0 +1,413 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  /* cursor: none; */
+}
+
+.bg-container {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  /* min-height: 190vh; */
+  padding: 15px 10px;
+  position: relative;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 5px;
+  width: 100%;
+  position: fixed;
+  top: 17;
+  z-index: 1000;
+}
+
+.header-nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 65%;
+  font-family: "Poppins";
+}
+
+.start-nav-items {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  font-weight: 400;
+}
+
+.start-nav-items img {
+  margin-left: 0px;
+  height: 38px;
+  width: 38px;
+}
+
+.start-nav-items h1 {
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+.middle-nav-items {
+  display: flex;
+  align-items: center;
+  width: 54%;
+  justify-content: space-between;
+}
+
+.middle-nav-items h1 {
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.section {
+  height: 100vh;
+}
+
+#section1 {
+  margin-top: 60px;
+  max-height: 88vh;
+}
+
+.heading-section1 {
+  font-size: 58px;
+  font-family: sans-serif;
+  font-weight: 400;
+  line-height: 1;
+}
+
+#section2 {
+  font-family: "Poppins";
+  max-height: fit-content;
+  margin-bottom: 40px;
+}
+
+.heading-section2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 50px;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+.hr {
+  width: 40px;
+  margin: 0px 10px;
+}
+
+.two-images {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  color: white;
+  font-family: "Roboto";
+}
+
+#section3 {
+  margin-top: 40px;
+  min-height: 100vh;
+}
+
+.two-images div {
+  display: flex;
+  flex-direction: column;
+}
+
+.two-images div img {
+  width: 100%;
+}
+
+.two-images div p {
+  font-family: "Roboto";
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+#hiddenText {
+  color: rgb(135, 135, 135);
+  font-size: 15px;
+  margin-top: 2px;
+  display: none;
+}
+
+.two-images div:hover #hiddenText {
+  display: block;
+}
+
+#section4 {
+}
+
+.section4-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.left-section4 {
+  width: 45%;
+  display: flex;
+  align-items: flex-start;
+
+  padding: 10px;
+}
+
+.right-section4 {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins";
+  width: 55%;
+}
+
+.right-section4 h1 {
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 1.15;
+  margin-bottom: 20px;
+}
+
+.right-divs {
+  margin-top: 50px;
+  width: 85%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.right-divs2 {
+  width: 80%;
+}
+
+.left-section4 img {
+  width: 210px;
+  height: auto;
+  transition: transform 0.5s ease, opacity 0.5s ease; /* Smooth zoom and fade effect */
+  height: 110px;
+}
+
+/* Zoom-out effect */
+.zoom-out {
+  transform: scale(0.8); /* Scale down */
+  opacity: 0; /* Fade out */
+}
+
+/* Zoom-in effect */
+.zoom-in {
+  transform: scale(1.1); /* Scale up */
+  opacity: 1; /* Fade in */
+}
+
+.banner {
+  height: 300px;
+  width: 570px;
+}
+
+#section5 {
+  min-height: 140vh;
+  margin-bottom: 70px;
+}
+
+.two-images-section5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  margin-top: 0px;
+}
+
+#section6 {
+  max-height: 65vh;
+  padding-top: 90px;
+}
+
+.section6-h1 {
+  font-family: "Roboto";
+  font-size: 58px;
+  line-height: 1.15;
+  font-weight: 400;
+}
+
+.section6-p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 21px;
+  margin-top: 30px;
+}
+
+#section7 {
+  width: 100%;
+  max-height: 100vh;
+}
+
+.seatcover {
+  width: 100%;
+}
+
+#section8 {
+  height: 100vh;
+  font-family: "Poppins";
+}
+
+#section8 p {
+  font-size: 19px;
+}
+
+#section8 h1 {
+  font-size: 70px;
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+#section9 {
+  margin-top: 30px;
+}
+
+#section10 {
+  height: 50vh;
+}
+
+.section10-container {
+  display: flex;
+  width: 98%;
+  font-family: "Poppins";
+}
+
+.section10-container h1 {
+  align-self: flex-end;
+  margin-left: auto;
+  font-size: 57px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+#section11 {
+  height: 90vh;
+  font-family: "Poppins";
+  width: 100%;
+}
+
+#section11 h1 {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.awards-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: none;
+}
+
+.awards-table th,
+.awards-table td {
+  padding: 10px 0px;
+  text-align: left;
+  font-weight: normal;
+}
+
+.awards-table th {
+  font-size: 14px;
+  opacity: 0.7;
+}
+.awards-table td {
+  font-size: 18px;
+}
+
+.awards-table td {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.awards-table tr:last-child td {
+  border-bottom: none;
+}
+
+.awards-table td:first-child,
+.awards-table th:first-child {
+  padding-right: 300px; /* Add large padding to the Year column */
+}
+
+#section12 {
+  height: 115vh;
+  width: 100%;
+}
+#section12 img {
+  margin-left: -10px;
+  margin-right: -20px;
+  width: 101.2%;
+}
+
+#section13 {
+  height: 20vh;
+}
+
+.section13-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40%;
+  justify-content: center;
+  margin-top: -50px;
+}
+
+.section13-container h1 {
+  font-family: "Poppins";
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.footer {
+  background-color: #000; /* Background color */
+  color: #fff; /* Text color */
+  font-family: "Poppins";
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  /* margin: 0 auto; */
+}
+
+.footer-column {
+  flex: 1;
+  max-width: 30%;
+}
+
+.footer-column p {
+  line-height: 1.25; /* Space between lines */
+  opacity: 0.8;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.footer-column a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-column a:hover {
+  opacity: 1;
+  color: #9c9b9b;
+}
+
+.dim {
+  color: rgb(111, 111, 111);
+}
+
+.dim:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.dimmer {
+  color: rgb(111, 111, 111);
+}
